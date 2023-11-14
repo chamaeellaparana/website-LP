@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+p{
+   color: #c57bb9; 
+   font-size: 40px;
+   
+}
+.header {
+    text-align: center;
+    background: radial-gradient(#fff, #e0bdda);
+    padding: 20px;
+}
+
+img {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(211, 135, 177);
+    padding: 10px 0;
+}
+
+.responsive-button {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.about,
+.projects {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about h2,
+.projects h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(211, 135, 177);
+    color: white;
+}
+hr{
+    color: #ceb4c9;
+}
+
+/* Animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#typewriter {
+    border-right: 2px solid #333;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: typing 3s steps(40, end);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
